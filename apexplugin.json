@@ -1,0 +1,33 @@
+{
+  "name" : "Alertify",
+  "version" : "1.0",
+  "description" : "Browser dialogs and notifications redesigned.",
+  "keywords" : ["dialog", "pop-up", "notification", "growl", "alert", "confirm", "confirmation", "prompt", "box", "cross-platform"],
+  "homepage" : "https://github.com/nbuytaert1/apex-alertify",
+  "bugs" : {
+    "url" : "https://github.com/nbuytaert1/apex-alertify/issues",
+    "email" : "nbuytaert1@gmail.com"
+  },
+  "license" : "GPL2",
+  "author" : {
+    "name" : "Nick Buytaert",
+    "email" : "nbuytaert1@gmail.com",
+    "url" : "https://apexplained.wordpress.com/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/nbuytaert1/apex-alertify.git"
+  },
+  "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["4.2.0", "5.0.0"],
+      "plugin" : {
+        "internalName" : "BE.CTB.ALERTIFY",
+        "type" : "dynamic action",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=64237:30",
+        "previewImage" : "http://www.apex-plugin.com/images/com_sobi2/gallery/349/349_image_2.png"
+      }
+    }
+  }
+}
